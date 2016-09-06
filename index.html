@@ -50,6 +50,27 @@
       code {
         font-size: 80%;
       }
+
+      .bs-callout {
+        padding: 20px;
+        margin: 20px 0;
+        border: 1px solid #eee;
+        border-left-width: 5px;
+        border-radius: 3px;
+        box-shadow: 1px 5px 4px #ccc;
+      }
+
+      .bs-callout-chinalink {
+        border-left-color: #E93292;
+      }
+
+      .bs-callout-eebus {
+        border-left-color: #007E63;
+      }
+
+      .bs-callout-eebus {
+        border-left-color: ;
+      }
     </style>
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -98,27 +119,46 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-
     <!-- Begin page content -->
     <div class="container">
-      <div class="page-header">
+    <div class="bs-callout bs-callout-chinalink" id="callout-buttons-color-accessibility">
+      <h4>中港通</h4> <p>成立於2003年，線路包括：<code>香港往廣州</code>,<code>香港往佛山</code>,<code>香港往梧州</code>,<code>香港往雲浮</code>,<code>香港往深圳機場</code>,<code>廣州往香港</code>,<code>佛山往香港</code>,<code>梧州往香港</code>,<code>雲浮往香港</code>,<code>深圳機場往香港</code>,<code>香港往深圳</code>,<code>香港往中山</code>,<code>香港往江門</code>,<code>香港往連灘</code>,<code>香港往三水</code>,<code>深圳往香港</code>,<code>中山往香港</code>,<code>江門往香港</code>,<code>連灘往香港</code>,<code>三水往香港</code>,<code>西樵山往香港</code>,<code>香港往珠海</code>,<code>香港往古鎮</code>,<code>香港往西樵山</code>,<code>珠海往香港</code>,<code>古鎮往香港</code>.</p>
+        <p>香港：+852-2230-3030<br/>國內：800-999-5678 / 400-88-22322</p>
+        <p>网站：<a href="http://www.chinalink.hk/home.html" target="_blank">http://www.chinalink.hk/home.html</a></p>
+        <p>网上购票：<a href="http://www.cnhkbus.com/SyntInquiry/searchResult.html" target="_blank">http://www.cnhkbus.com/SyntInquiry/searchResult.html</a></p>
+        <p>微信购票：<a href="http://www.cnhkbus.com/SyntInquiry/searchResult.html" target="_blank">http://www.cnhkbus.com/SyntInquiry/searchResult.html</a></p>
+    </div>
+
+    <div class="bs-callout bs-callout-eebus" id="callout-buttons-color-accessibility">
+    <h4>永東</h4> <p>成立於2003年，線路包括：<code>鳳碧從化線</code>,<code>佛山線</code>,<code>九江西樵丹灶線</code>,<code>順德大良線</code>,<code>肇慶線</code>,<code>番禺線</code>,<code>廣州線</code>,<code>深圳東部華僑城線</code>,<code>惠州市區線</code>,<code>惠東線</code>,<code>深圳北站專線</code>,<code>恩平湛江線</code>,<code>陳江龍崗市區線</code>,<code>清遠線</code>,<code>花都線</code>.</p>
+    <p>香港：+852-37600888<br/>國內：4008861668</p>
+    <p>网上购票：<a href="https://szydlxs.alitrip.com/index.htm" target="_blank">https://szydlxs.alitrip.com/index.htm</a></p>
+    <p>微信购票：<a href="#" target="_blank">#</a></p>
+    </div>
+    <!--   <div class="page-header">
         <h1>Sticky footer with fixed navbar</h1>
       </div>
+      
       <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body > .container</code>.</p>
-      <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
+      <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p> -->
     </div>
 
     <div class="footer">
       <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
+        <p class="text-muted">如有问题，请联系: hi#cnhklink.com (＃替换为@)</p>
       </div>
     </div>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83772702-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
   </body>
 </html>
